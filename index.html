@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<head>
+    <title> Safe Researcher</title>
+</head>  
+<body>
+    
+    <header>
+        <div class="caixa">
+        <h1> <img class="foto" src="fundo1.png"></h1>
+            <nav>
+                    <ul>
+                            <li><a href="">detector</a></li>
+                            <li><a href="">sobre o projeto</a></li>
+                    </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="conteudo">
+        <h2>Safe Researcher</h2>
+        <br>
+        <p>O sistema irá processar o texto para identificar características de escrita<br> como palavras usadas ou classes gramaticais mais frequentes<br> e utilizar essas características em um modelo de aprendizado de máquina <br>que classificará a notícia em verdadeira ou falsa</p>
+
+        <h3>ATENÇÃO: Utilize o texto completo da notícia! O texto deve ter pelo menos 100 palavras. O sistema pode não funcionar corretamente com apenas partes de notícias.</h3>
+
+        <form>
+           
+            <label for="noticia"></label>
+            <textarea placeholder="insira o texto da sua noticia aqui" id="noticia"> </textarea>
+            
+
+            
+
+            <select>
+                <option>palavras do texto</option>
+                <option>classes gramaticais</option>
+            </select>
+
+            <input type="submit" value="enviar">
+        </form>
+    </main>
+</div>
+
+</body>
+</html>
